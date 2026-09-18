@@ -49,4 +49,7 @@ git push -u origin main
 git pull origin main --rebase
 git push origin main
 ```
-7. 
+7. Antes de commitear y despues de añadir cambios
+```bash
+git add "nombre del archivo"
+```
