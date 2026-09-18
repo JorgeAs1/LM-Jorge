@@ -36,7 +36,7 @@ sudo apt install git
 ```bash
 git init
 git add
-git commit -m "Comentario descripto"
+git commit -m "Comentario descriptivo"
 ```
 5. Conectar con github
 ```bash
