@@ -32,3 +32,9 @@ Un lenguaje de marcacs organiza infomación medante una sintaxis basada en marca
 ```bash
 sudo apt install git
 ```
+4. Inicializar repositorio git (en la carpeta del proyecto)
+```bash
+git init
+git add
+git commit -m "Comentario descripto"
+```
