@@ -19,7 +19,7 @@ Un lenguaje de marcacs organiza infomación medante una sintaxis basada en marca
 1. Instalar [VS Code](https://code.visualstudio.com/)
 2. Instalar Plugins
 
-## Descripcion de plugisn
+## Descripcion de plugins
 
 
 | Extensión | Descripción | Icono |
