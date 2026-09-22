@@ -24,32 +24,41 @@ Un lenguaje de marcacs organiza infomación medante una sintaxis basada en marca
 
 | Extensión | Descripción | Icono |
 | :---: | :---: | :---: |
-| [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) | Previsualizar como queda el código que vamos creando. | ![Live Preview](https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/live-server/0.5.2026091601/1789550624683/Microsoft.VisualStudio.Services.Icons.Default) |
-| [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) | Ayuda para crear y editar CSS y HTML. | ![HTML CSS](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUWFZzccVs8uCeiZLW8CqSYREkKTneHueiJ7mhTj4tPQ&s=10) |
-| [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) | Ayuda con el lenguaje XML. | ![XML](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVFbr6mH5xS3JPdyDI8U3_H5zpxtFSw8tdt5cNSQ9HOQ&s=10) |
-| [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) | Ayuda a crear y editar de forma eficiente Markdown. | ![Markdown](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH5qvKELEaIZ7BOFRN9-i6xWmFIYf4VelAvocp55qFpw&s=10) |
-3. Instalar git
+| [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) | Previsualizar como queda el código que vamos creando. | ![Live Preview](img/livepre.png) |
+| [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) | Ayuda para crear y editar CSS y HTML. | ![HTML CSS](img/htmlcss.png) |
+| [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) | Ayuda con el lenguaje XML. | ![XML](img/xml.png) |
+| [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) | Ayuda a crear y editar de forma eficiente Markdown. | ![Markdown](img/md.png) |
+1. Instalar git
 ```bash
 sudo apt install git
 ```
-4. Inicializar repositorio git (en la carpeta del proyecto)
+1. Inicializar repositorio git (en la carpeta del proyecto)
 ```bash
 git init
 git add
 git commit -m "Comentario descriptivo"
 ```
-5. Conectar con github
+1. Conectar con github
 ```bash
 git remote add origin url -repo
 git branch -M main 
 git push -u origin main
 ```
-6. En caso de fallo 
+1. En caso de fallo 
 ```bash
 git pull origin main --rebase
 git push origin main
 ```
-7. Antes de commitear y despues de añadir cambios
+1. Antes de commitear y despues de añadir cambios
 ```bash
 git add "nombre del archivo"
 ```
+1. Para bajarnos nuestro trabajo a local
+```bash
+git clone "url de lo que nos queramos bajar"
+
+git pull 
+```
+
+
+
