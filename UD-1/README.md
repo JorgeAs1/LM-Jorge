@@ -28,32 +28,32 @@ Un lenguaje de marcacs organiza infomación medante una sintaxis basada en marca
 | [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) | Ayuda para crear y editar CSS y HTML. | ![HTML CSS](img/htmlcss.png) |
 | [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) | Ayuda con el lenguaje XML. | ![XML](img/xml.png) |
 | [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) | Ayuda a crear y editar de forma eficiente Markdown. | ![Markdown](img/md.png) |
-1. Instalar git
+3. Instalar git
 ```bash
 sudo apt install git
 ```
-1. Inicializar repositorio git (en la carpeta del proyecto)
+4. Inicializar repositorio git (en la carpeta del proyecto)
 ```bash
 git init
 git add
 git commit -m "Comentario descriptivo"
 ```
-1. Conectar con github
+5. Conectar con github
 ```bash
 git remote add origin url -repo
 git branch -M main 
 git push -u origin main
 ```
-1. En caso de fallo 
+6. En caso de fallo 
 ```bash
 git pull origin main --rebase
 git push origin main
 ```
-1. Antes de commitear y despues de añadir cambios
+7. Antes de commitear y despues de añadir cambios
 ```bash
 git add "nombre del archivo"
 ```
-1. Para bajarnos nuestro trabajo a local
+8. Para bajarnos nuestro trabajo a local
 ```bash
 git clone "url de lo que nos queramos bajar"
 
