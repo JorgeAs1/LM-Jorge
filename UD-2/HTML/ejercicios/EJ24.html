@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de incidencia</title>
+</head>
+<body>
+
+    <form action="incidencia.php" method="get">
+
+        <fieldset>
+            <legend>Datos del usuario</legend>
+           
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Nombre y apellidos">
+            
+            
+                <br><input type="radio" id="alumno" name="tipo_usuario" value="alumno" checked>
+                <label for="alumno">Alumno</label>
+                <br>
+                <input type="radio" id="profesor" name="tipo_usuario" value="profesor">
+                <label for="profesor">Profesor</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dónde se produce</legend>
+            
+                <input type="radio" id="depto" name="lugar" value="departamento">
+                <label for="depto">Todo el departamento</label>
+                <br>
+                <input type="radio" id="aula" name="lugar" value="aula">
+                <label for="aula">Todo el aula</label>
+                <br>
+                <input type="radio" id="equipo" name="lugar" value="equipo" checked>
+                <label for="equipo">Sólo en un equipo</label>
+                <br>
+            
+                <label for="id_lugar">Identifica el dpto, aula o equipo</label>
+                <input type="text" id="id_lugar" name="id_lugar">
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Información sobre la incidencia</legend>
+            
+                <label for="descripcion">Descripción de la incidencia</label>
+                <br>
+                <textarea id="descripcion" name="descripcion" rows="6" cols="80" placeholder="Describe el problema con detalle"></textarea>
+                <br>
+                Nivel de urgencia:
+                <br>
+                <input type="radio" id="alto" name="urgencia" value="alto">
+                <label for="alto">Alto</label>
+                <br>
+                <input type="radio" id="medio" name="urgencia" value="medio">
+                <label for="medio">Medio</label>
+                <br>
+                <input type="radio" id="bajo" name="urgencia" value="bajo" checked>
+                <label for="bajo">Bajo</label>
+                <br>
+           
+                <label for="aviso_email">Me gustaría ser avisado por email cuando se resuelva la incidencia</label>
+                <input type="checkbox" id="aviso_email" name="aviso_email" value="si" checked>
+            
+        </fieldset>
+
+        
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        
+
+    </form>
+
+</body>
+</html>
